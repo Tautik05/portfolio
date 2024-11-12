@@ -7,7 +7,7 @@ import Navbar from "./components/navbar";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="min-h-screen bg flex flex-col overscroll-none">
+    <div className="min-h-screen bg flex flex-col w-screen overscroll-none">
       <Navbar />
       <div className="">
         <App />
