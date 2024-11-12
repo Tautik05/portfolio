@@ -18,7 +18,10 @@ const App = () => {
             </span>
 
             <div className="mt-5 font-bold max-w-[40vw]">
-              I do backed in Django which i don't even like. Coding has ruined my life, and i know it will ruin my love life too. I want to earn money because i can't live in my parent basement anymore, because it stinks dure to the rotten smell of my dead sister
+              I do backed in Django which i don't even like. Coding has ruined
+              my life, and i know it will ruin my love life too. I want to earn
+              money because i can't live in my parent basement anymore, because
+              it stinks dure to the rotten smell of my dead sister
             </div>
 
             <div className="mt-5 font-bold max-w-[40vw] flex items-center gap-3">
@@ -57,7 +60,7 @@ const App = () => {
           </Button>
           <Button
             className=" hover:outline-white hover:outline-4 transition-all duration-100 m-0 p-0 rounded-full"
-            link=""
+            link="https://x.com/roy_tautik"
           >
             <FaXTwitter />
           </Button>
