@@ -3,15 +3,14 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import Navbar from "./components/navbar";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <div className="min-h-screen bg flex flex-col w-screen overscroll-none">
-      <Navbar />
-      <div className="">
-        <App />
-      </div>
+      <Navbar /> {/* Navbar remains constant */}
+      <App /> {/* Routed content changes */}
     </div>
-  </React.StrictMode>
+  </BrowserRouter>
 );

@@ -1,7 +1,7 @@
 import React from "react";
 import { cn } from "../../lib/utils";
 
-const Button = ({ className, emphasise = false, children, link }) => {
+const Button = ({ className, emphasise = false, children, link, newPage = false }) => {
   return (
     <a
       className={cn(
@@ -10,7 +10,7 @@ const Button = ({ className, emphasise = false, children, link }) => {
         emphasise && "text-white bg-blue-400"
       )}
       href={link}
-      target="_blank"
+      target={newPage && "_blank"}
       rel="noreferrer"
     >
       {children}
