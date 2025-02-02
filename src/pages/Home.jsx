@@ -3,7 +3,7 @@ import React from "react";
 import Button from "../components/ui/button";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import face from "../images/face.jpg";
+import face2 from "../images/face2.jpg";
 
 const Home = () => {
   return (
@@ -18,10 +18,10 @@ const Home = () => {
           </span>
 
           <div className="mt-5 font-bold max-w-[40vw]">
-            I do backed in Django which i don't even like. Coding has ruined my
-            life, and i know it will ruin my love life too. I want to earn money
-            because i can't live in my parent basement anymore, because it
-            stinks dure to the rotten smell of my dead sister
+            I'm a passionate full stack developer with a knack for building
+            dynamic, robust web applications. With expertise in both frontend
+            and backend technologies, I thrive in creating seamless, end-to-end
+            solutions.
           </div>
 
           <div className="mt-5 font-bold max-w-[40vw] flex items-center gap-3">
@@ -59,8 +59,8 @@ const Home = () => {
         </div>
         <div className="flex items-center justify-center ">
           <img
-            className="rounded-3xl rotate-12 shadow-[46px_50px_0px_-29px_rgba(0,_0,_0,_0.1)] shadow-black/50"
-            src={face}
+            className="rounded-full shadow-[46px_50px_0px_-29px_rgba(0,_0,_0,_0.1)] shadow-black/50"
+            src={face2}
             alt="me!"
             width="400vw"
           />

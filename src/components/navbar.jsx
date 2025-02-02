@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 flex items-center justify-between mx-20 p-5 text-white rounded-b-xl z-50 bg-slate-800/50 backdrop-blur-xl font-bold shadow-xl">
       <a href="\" className="cursor-pointer">
-        <div className="text-2xl">TT</div>
+        <div className="text-2xl">Tautik</div>
       </a>
       <ul className="flex items-center gap-4">
         <a

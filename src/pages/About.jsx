@@ -6,9 +6,9 @@ const About = () => {
       <div className="flex items-center gap-4 ">
         <div className="flex-grow flex flex-col justify-center w-full text-center">
           <span className="text-7xl font-bold drop-shadow-md">About me</span>
-          <span className="text-4xl font-bold text-blue-400 drop-shadow-md">
-            Let's go through all the pain i've faced
-          </span>
+          {/* <span className="text-4xl font-bold text-blue-400 drop-shadow-md">
+            A passionate full stack developer
+          </span> */}
         </div>
       </div>
       <div className=" flex items-center justify-center p-5 border-4 rounded-xl flex-col border-white text-center font-bold mx-32 mt-8">
@@ -25,9 +25,7 @@ const About = () => {
         backend, I’m always eager to learn, create, and collaborate.`}
 
         <div>
-          <h1 class="text-3xl font-bold text-white my-5">
-            Technology Stack
-          </h1>
+          <h1 class="text-3xl font-bold text-white my-5">Technology Stack</h1>
 
           <div class="flex flex-wrap justify-center gap-4">
             <img
